@@ -101,7 +101,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/cindygnaedinger/apple-website",
   },
 ];
 
@@ -127,12 +127,6 @@ export const testimonials = [
   {
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium libero quis enim suscipit, id laoreet ex mattis. Duis vel leo condimentum, tempus nisi eget, dignissim lorem. Ut vitae sapien vel ipsum consectetur dapibus. Quisque non metus vitae odio fermentum consequat. Integer scelerisque lacus eget ligula volutpat, sit amet vestibulum urna fermentum. Sed ut sapien at eros tristique lobortis sit amet et elit. ",
-    name: "Lorem Ipsum",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Lorem Ipsum",
     title: "Director of AlphaStream Technologies",
   },
