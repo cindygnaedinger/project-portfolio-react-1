@@ -209,16 +209,18 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     link: "https://github.com/cindygnaedinger",
+    title: "github",
   },
   {
     id: 2,
     img: "/wha.svg",
     link: "https://api.whatsapp.com/send?phone=543516544771&text=Hola,%20Cindy:",
+    title: "whatsapp",
   },
   {
     id: 3,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/cindygnaedinger/",
-    tooltip: "LinkedIn",
+    title: "LinkedIn",
   },
 ];
