@@ -4,20 +4,24 @@ import React from "react";
 
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
-import { FaPlus } from "react-icons/fa";
+import { FaPlus, FaRegGrinHearts } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 
 const Clients = () => {
   return (
     <div
       id="testimonials"
-      className="py-20 flex flex-col items-center justify-center"
+      className="py-10 flex flex-col items-center justify-center"
     >
       <h1 className="heading">
-        Kind words from
-        <span className="text-purple"> colleagues</span>
+        Palabras de
+        <span className="text-purple"> colegas y clientes </span>
       </h1>
-      <MagicButton title="Add Testimonial" icon={<FaPlus />} position="right" />
+      <MagicButton
+        title="Agregar un testimonio"
+        icon={<FaPlus />}
+        position="right"
+      />
       <div className="flex flex-col items-center max-lg:mt-10">
         <div
           // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design

@@ -8,13 +8,13 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Mi <span className="text-purple">forma de trabajar</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          title="Exploración Creativa"
+          icon={<AceternityIcon order="1" />}
+          description="Primero, me adentro en el universo del proyecto, buscando inspiración en cada rincón y comprendiendo a fondo tus necesidades y aspiraciones."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,9 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step pf the way."
+          title="Diseño y Prototipado"
+          icon={<AceternityIcon order="2" />}
+          description="Luego, plasmo mis ideas en bocetos y prototipos, permitiendo que la innovación se materialice en formas tangibles, siempre dispuesta a experimentar y ajustar según el feedback."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,9 +39,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Lunch"
-          icon={<AceternityIcon order="Phase 3" />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          title="Ejecución y Perfección"
+          icon={<AceternityIcon order="3" />}
+          description="Finalmente, llevo a cabo la implementación con un enfoque meticuloso, refinando cada detalle para asegurar una solución pulida y eficaz que cumpla con todos los requisitos."
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -11,12 +11,12 @@ const Experience = () => {
       className="py-20 flex flex-col items-center justify-center"
     >
       <h1 className="heading">
-        My
-        <span className="text-purple"> work experience</span>
+        Mi
+        <span className="text-purple"> experiencia laboral</span>
       </h1>
       <a href="./resume_CindyGnaedinger.pdf" download>
         <MagicButton
-          title="Download my Resume"
+          title="Descarga mi curriculum"
           icon={<IoDownload />}
           position="right"
         />

@@ -1,14 +1,15 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Sobre", link: "#about" },
+  { name: "Proyectos", link: "#projects" },
+  { name: "Testimonios", link: "#testimonials" },
+  { name: "Contacto", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "El desarrollo web es una extensión de mi pasión por las artes visuales",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "Traducciones para el sector IT precisas, respaldadas por mi experiencia.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Mi tech stack",
+    description: "Apuesto a mejorar constantemente",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Visual arts enthusiast with a passion for development.",
+    title: "El trabajo en equipo y la comunicación abierta son mi prioridad",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,8 +52,8 @@ export const gridItems = [
   {
     id: 5,
     title:
-      "Currently building with React, Next.js, Aceternity UI and Tailwind.",
-    description: "The Inside Scoop",
+      "En este momento estoy desarrollando con React, Next.js, Aceternity UI, Tailwind, Appwrite.",
+    description: "Lo último",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -60,7 +62,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "¿Te gustaría que trabajemos juntos?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -71,8 +73,8 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
+  /* {
+   id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
@@ -86,22 +88,28 @@ export const projects = [
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
+  }, */
+  {
+    id: 1,
+    title: "Pulso - Turnero Médico",
+    des: "Los pacientes y administradores pueden agendar, modificar y cancelar turnos | React, Next.js, Typescript, Tailwind, Appwrite, Sentry, Twilio",
+    img: "/pulso2.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/next.svg",
+      "/appwrite.svg",
+    ],
+    link: "https://pulso-turnero.vercel.app/",
   },
   {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    id: 2,
+    title: "Web 3D Animada para Apple iPhone",
+    des: "Recreación del sitio web del Apple iPhone 15 Pro con animaciones GSAP y efectos 3D con Three.js | React, Next.js, Typescript, Tailwind",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/cindygnaedinger/apple-website",
+    link: "https://apple-website-gnaedinger.vercel.app/",
   },
 ];
 
@@ -168,29 +176,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Full Stack Dev Intern",
-    desc: "Assisted in the development and refactoring of an accounting platform using VB, C#, JavaScript, JQuery, HTML, CSS, SQL.",
+    title: "Desarrolladora Full Stack Trainee",
+    desc: "Contribuí al desarrollo y mejora de una plataforma contable empleando VB, C#, JavaScript, JQuery, HTML, CSS y SQL Server",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Freelance Frontend Projects",
-    desc: "Designed and developed web pages and apps using JavaScript, HTML, CSS, React, Next.js, Node.js, MongoDB",
+    title: "Proyectos Dev Freelance",
+    desc: "Participo en diversos proyectos, tanto independientes como en equipo, en los cuales utilicé JavaScript, HTML, CSS, React, Next.js, Node.js, MongoDB",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Group Full Stack Project",
-    desc: "Collaborated from design to deployment using JavaScript, HTML, CSS, Node.js and MongoDB to build a platform that connects donnors of food with dinning facilities.",
+    title: "Artes Visuales",
+    desc: "En mi tiempo libre, trabajo en proyectos de arte personales/grupales. Estudio la Licencitura en Artes Visuales en la UNC.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "English to Spanish Translator",
-    desc: "Used my experience in web development to translate and edit IT related texts, assuring accuracy and naturalness. Created content for AI training.",
+    title: "Traductora de inglés al español",
+    desc: "Me encargo de la traducción/edición de textos especializados en TI, asegurando que fueran precisos y naturales. Generé contenido para entrenar IA.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
