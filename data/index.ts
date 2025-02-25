@@ -73,25 +73,23 @@ export const gridItems = [
 ];
 
 export const projects = [
-  /* {
-   id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+  {
+    id: 1,
+    title: "Sala 8 ½: catálogo de películas | Feb 2025",
+    des: "Una aplicación web minimalista para gestionar y explorar películas | React 19, Vite, Tailwind CSS 4.0, Aceternity UI, The Movie Database (TMDb) API, Appwrite",
+    img: "/sala.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/next.svg",
+      "/appwrite.svg",
+    ],
+    link: "https://movie-react-vite.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
-  }, */
-  {
-    id: 1,
-    title: "Pulso - Turnero Médico",
+    title: "Pulso: turnero médico | Jul 2024",
     des: "Los pacientes y administradores pueden agendar, modificar y cancelar turnos | React, Next.js, Typescript, Tailwind, Appwrite, Sentry, Twilio",
     img: "/pulso2.png",
     iconLists: [
@@ -104,8 +102,8 @@ export const projects = [
     link: "https://pulso-turnero.vercel.app/",
   },
   {
-    id: 2,
-    title: "Web 3D Animada para Apple iPhone",
+    id: 3,
+    title: "Apple iPhone: web 3D animada | Jul 2024",
     des: "Recreación del sitio web del Apple iPhone 15 Pro con animaciones GSAP y efectos 3D con Three.js | React, Next.js, Typescript, Tailwind",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],

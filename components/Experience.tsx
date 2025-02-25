@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./ui/MovingBorders";
 import { workExperience } from "@/data";
 import MagicButton from "./ui/MagicButton";
-import { IoDownload } from "react-icons/io5";
+import { IoArrowDown, IoDownload } from "react-icons/io5";
 
 const Experience = () => {
   return (
@@ -14,10 +14,10 @@ const Experience = () => {
         Mi
         <span className="text-purple"> experiencia laboral</span>
       </h1>
-      <a href="./resume_CindyGnaedinger.pdf" download>
+      <a href="./Dev_Cindy-Gnaedinger-CV.pdf" download>
         <MagicButton
           title="Descarga mi curriculum"
-          icon={<IoDownload />}
+          icon={<IoArrowDown />}
           position="right"
         />
       </a>

@@ -5,12 +5,12 @@ import { projects } from "@/data";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20 mt-10" id="projects">
       <h1 className="heading">
-        Mis
+        Una selección de <br />
         <span className="text-purple"> proyectos recientes</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
@@ -18,7 +18,7 @@ const RecentProjects = () => {
           >
             <PinContainer title={link}>
               <a href={link} target="_blank" rel="noopener noreferrer">
-                <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+                <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-2">
                   <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                     <img src="/bg.png" alt="bg-img" />
                   </div>
