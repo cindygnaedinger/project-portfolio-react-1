@@ -41,7 +41,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": "16.x"
+    "node": "22.x"
   },
   "resolutions": {
     "three": "0.150.0"
